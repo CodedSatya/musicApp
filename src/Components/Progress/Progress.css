@@ -1,5 +1,6 @@
 .progressBox{
   width: 100%;
+  min-width: 10px;
   height: 0.4rem;
   background-color: white;
   border: 1px solid black;
