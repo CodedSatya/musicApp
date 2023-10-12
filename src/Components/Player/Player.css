@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem 3rem;
+  margin: 0rem 3rem;
 }
 
 .playerCard{
@@ -25,7 +25,14 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1332px) {
+  .playerCard{
+    width: 50%;
+    height: 100%;
+  }
+  
+}
+@media screen and (max-width: 898px) {
   .playerCard{
     width: 100%;
   }
