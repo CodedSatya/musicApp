@@ -3,3 +3,9 @@
   margin: 2rem 1rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .controls{
+    margin: 2rem 0.2rem;
+  }
+}
